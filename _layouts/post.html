@@ -9,6 +9,6 @@ comments: true
   {{ content }}
 </div>
 
-{% if site.disqus.shortname %}
-  {% include disqus_comments.html %}
-{% endif %}
+<div class="notecomments">
+				{% include disqus.html %}	 
+</div>
