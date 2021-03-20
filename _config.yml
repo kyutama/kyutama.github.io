@@ -1,4 +1,4 @@
-theme: default
+theme: jekyll-theme-slate
 permalink: /blog/:year/:month/:day/:title
 # Disqus Comments
 disqus:
