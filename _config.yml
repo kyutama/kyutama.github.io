@@ -1,4 +1,4 @@
-theme: jekyll-theme-slate
+theme: minima
 permalink: /blog/:year/:month/:day/:title
 # Disqus Comments
 disqus:
