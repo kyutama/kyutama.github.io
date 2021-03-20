@@ -1,6 +1,13 @@
 theme: jekyll-theme-slate
 permalink: /blog/:year/:month/:day/:title
 remote_theme:minima
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/blog/page:num'
+sidebar_blog_link: '/blog'
+
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
